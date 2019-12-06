@@ -1,0 +1,87 @@
+html{
+	background-color: #ffffcc;
+}
+
+h1{
+	border: black 3px;
+	border-style: groove;
+}
+
+
+.gridbody{
+	display: grid;
+	grid-template-rows: 25% 40% 25%;
+	grid-template-columns: 25% 40% 25%;
+	width: 2100px;
+	height: 1550px;
+}
+
+.item1{
+	border: solid black 5px;
+	font-size: 40px;
+}
+
+.item2{
+	padding: 5px;
+	margin: auto;
+}
+
+.item3{
+	border: solid black 5px;
+	font-size: 40px;
+}
+
+.item4{
+	border: solid black 5px;
+	font-size: 40px;
+}
+
+.item5{
+	border: solid black 5px;
+	grid-column-start: 3;
+	font-size: 40px;
+}
+
+.moreinfo{
+	height: auto;
+	width: 50%;
+}
+
+.grid{
+	display: grid;
+	font-size: 75px;
+}
+
+.grid1{
+	grid-template-columns: 350px 350px 350px 350px;
+	grid-template-rows: 300px 300px 300px 300px;
+	display: grid;
+	grid-gap: 5px;
+	grid-row-start: auto;
+	grid-row-end: auto;
+	grid-column-start: auto;
+	grid-column-end: auto;
+	grid-row-end: auto;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+.image1{
+	height: auto;
+	width: 50%;
+}
+
+.image2{
+	height: auto;
+	width: auto;
+}
+
+.image3{
+	height: auto;
+	width: 50%;
+}
+
+.image4{
+	height: auto;
+	width: 50%;
+}
